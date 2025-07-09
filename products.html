@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MSNC9HDM');</script>
-    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NatureBloom Organics - Products</title>
+    <!-- Descriptive Title Tag (60-70 characters) -->
+    <title>NatureBloom Organics: Shop All Natural & Organic Skincare</title>
+    <!-- Clear Meta Description (150-160 characters) -->
+    <meta name="description" content="Browse NatureBloom Organics' full collection of pure, organic skincare products. Find face serums, body lotions, cleansers, toners, eye creams, and sunscreens.">
+    <!-- Keywords Meta Tag -->
+    <meta name="keywords" content="organic skincare products, natural skincare, face serums, body lotions, herbal cleansers, rose toner, eye cream, mineral sunscreen">
+    <!-- Author Meta Tag -->
+    <meta name="author" content="PixelPro Solutions">
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -22,10 +22,6 @@
     </style>
 </head>
 <body class="bg-gradient-to-br from-green-50 to-lime-100 min-h-screen flex flex-col text-gray-800">
-       <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MSNC9HDM"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
     <!-- Header/Navigation -->
     <header class="bg-white shadow-md py-4 px-6 md:px-12 flex justify-between items-center rounded-b-lg">
         <div class="text-2xl font-bold text-green-700">NatureBloom Organics</div>
@@ -38,68 +34,70 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- Main Content -->
     <main class="flex-grow container mx-auto p-4 md:p-8">
+        <!-- Main heading for the products page -->
         <section class="bg-white bg-opacity-90 p-6 md:p-10 rounded-xl shadow-lg mb-8 text-center">
-            <h1 class="text-4xl md:text-5xl font-extrabold text-green-800 mb-4">Our Pure & Organic Products</h1>
+            <h1 class="text-4xl md:text-5xl font-extrabold text-green-800 mb-4">Our Pure & Organic Skincare Products</h1>
             <p class="text-lg md:text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto">
                 Explore our full range of organic skincare, crafted with the finest natural ingredients to nurture your skin.
             </p>
         </section>
 
-        <!-- Product Grid -->
+        <!-- Product Grid (H2 for section title) -->
         <section class="bg-white bg-opacity-90 p-6 md:p-10 rounded-xl shadow-lg">
+            <h2 class="sr-only">Product Listing</h2> <!-- Hidden H2 for accessibility/SEO -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                <!-- Product Card 1 -->
+                <!-- Product Card 1: Radiant Glow Face Serum -->
                 <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out flex flex-col items-center text-center">
-                    <img src="https://placehold.co/200x200/a7f3d0/10b981?text=Face+Serum" alt="Radiant Glow Face Serum" class="w-48 h-48 rounded-full object-cover mb-4 shadow-md">
+                    <img src="https://placehold.co/200x200/e0f2f7/007bff?text=Serum+Bottle" alt="Organic Radiant Glow Face Serum Bottle" class="w-48 h-48 rounded-full object-cover mb-4 shadow-md">
                     <h3 class="text-xl font-semibold text-gray-800 mb-2">Radiant Glow Face Serum</h3>
                     <p class="text-gray-600 text-sm mb-3">Infused with Vitamin C and Hyaluronic Acid for a luminous complexion.</p>
                     <span class="text-green-700 font-bold text-lg">$29.99</span>
-                    <button class="mt-4 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out">Add to Cart</button>
+                    <button id="btn-add-to-cart-serum" class="mt-4 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out">Add to Cart</button>
                 </div>
 
-                <!-- Product Card 2 -->
+                <!-- Product Card 2: Deep Hydration Body Lotion -->
                 <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out flex flex-col items-center text-center">
-                    <img src="https://placehold.co/200x200/a7f3d0/10b981?text=Body+Lotion" alt="Deep Hydration Body Lotion" class="w-48 h-48 rounded-full object-cover mb-4 shadow-md">
+                    <img src="https://placehold.co/200x200/f0fdf4/22c55e?text=Lotion+Tube" alt="Organic Deep Hydration Body Lotion" class="w-48 h-48 rounded-full object-cover mb-4 shadow-md">
                     <h3 class="text-xl font-semibold text-gray-800 mb-2">Deep Hydration Body Lotion</h3>
                     <p class="text-gray-600 text-sm mb-3">Rich shea butter and essential oils for long-lasting moisture.</p>
                     <span class="text-green-700 font-bold text-lg">$18.50</span>
-                    <button class="mt-4 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out">Add to Cart</button>
+                    <button id="btn-add-to-cart-lotion" class="mt-4 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out">Add to Cart</button>
                 </div>
 
-                <!-- Product Card 3 -->
+                <!-- Product Card 3: Gentle Herbal Cleanser -->
                 <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out flex flex-col items-center text-center">
-                    <img src="https://placehold.co/200x200/a7f3d0/10b981?text=Cleanser" alt="Gentle Herbal Cleanser" class="w-48 h-48 rounded-full object-cover mb-4 shadow-md">
+                    <img src="https://placehold.co/200x200/fefce8/eab308?text=Cleanser+Pump" alt="Organic Gentle Herbal Cleanser Bottle" class="w-48 h-48 rounded-full object-cover mb-4 shadow-md">
                     <h3 class="text-xl font-semibold text-gray-800 mb-2">Gentle Herbal Cleanser</h3>
                     <p class="text-gray-600 text-sm mb-3">Mild and effective, perfect for daily cleansing without stripping natural oils.</p>
                     <span class="text-green-700 font-bold text-lg">$22.00</span>
-                    <button class="mt-4 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out">Add to Cart</button>
+                    <button id="btn-add-to-cart-cleanser" class="mt-4 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out">Add to Cart</button>
                 </div>
 
-                <!-- Product Card 4 -->
+                <!-- Product Card 4: Balancing Rose Toner -->
                 <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out flex flex-col items-center text-center">
-                    <img src="https://placehold.co/200x200/a7f3d0/10b981?text=Toner" alt="Balancing Rose Toner" class="w-48 h-48 rounded-full object-cover mb-4 shadow-md">
+                    <img src="https://placehold.co/200x200/ffe4e6/f43f5e?text=Rose+Toner" alt="Organic Balancing Rose Toner Spray" class="w-48 h-48 rounded-full object-cover mb-4 shadow-md">
                     <h3 class="text-xl font-semibold text-gray-800 mb-2">Balancing Rose Toner</h3>
                     <p class="text-gray-600 text-sm mb-3">Refreshes and balances skin pH with pure rose hydrosol.</p>
                     <span class="text-green-700 font-bold text-lg">$15.00</span>
-                    <button class="mt-4 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out">Add to Cart</button>
+                    <button id="btn-add-to-cart-toner" class="mt-4 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out">Add to Cart</button>
                 </div>
 
-                <!-- Product Card 5 -->
+                <!-- Product Card 5: Revitalizing Eye Cream -->
                 <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out flex flex-col items-center text-center">
-                    <img src="https://placehold.co/200x200/a7f3d0/10b981?text=Eye+Cream" alt="Revitalizing Eye Cream" class="w-48 h-48 rounded-full object-cover mb-4 shadow-md">
+                    <img src="https://placehold.co/200x200/e0e7ff/6366f1?text=Eye+Cream+Jar" alt="Organic Revitalizing Eye Cream Jar" class="w-48 h-48 rounded-full object-cover mb-4 shadow-md">
                     <h3 class="text-xl font-semibold text-gray-800 mb-2">Revitalizing Eye Cream</h3>
                     <p class="text-gray-600 text-sm mb-3">Reduces puffiness and dark circles with cucumber extract.</p>
                     <span class="text-green-700 font-bold text-lg">$35.00</span>
-                    <button class="mt-4 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out">Add to Cart</button>
+                    <button id="btn-add-to-cart-eye-cream" class="mt-4 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out">Add to Cart</button>
                 </div>
 
-                <!-- Product Card 6 -->
+                <!-- Product Card 6: Mineral Sunscreen SPF 30 -->
                 <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out flex flex-col items-center text-center">
-                    <img src="https://placehold.co/200x200/a7f3d0/10b981?text=Sunscreen" alt="Mineral Sunscreen SPF 30" class="w-48 h-48 rounded-full object-cover mb-4 shadow-md">
+                    <img src="https://placehold.co/200x200/fff7ed/f97316?text=Sunscreen+Tube" alt="Organic Mineral Sunscreen SPF 30 Tube" class="w-48 h-48 rounded-full object-cover mb-4 shadow-md">
                     <h3 class="text-xl font-semibold text-gray-800 mb-2">Mineral Sunscreen SPF 30</h3>
                     <p class="text-gray-600 text-sm mb-3">Non-nano zinc oxide for broad-spectrum sun protection.</p>
                     <span class="text-green-700 font-bold text-lg">$25.99</span>
-                    <button class="mt-4 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out">Add to Cart</button>
+                    <button id="btn-add-to-cart-sunscreen" class="mt-4 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out">Add to Cart</button>
                 </div>
             </div>
         </section>
@@ -111,6 +109,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="flex justify-center space-x-4 mt-2">
             <a href="#" class="hover:text-green-400 transition duration-300 ease-in-out">Privacy Policy</a>
             <a href="#" class="hover:text-green-400 transition duration-300 ease-in-out">Terms of Service</a>
+            <!-- Placeholder for potential external backlinks -->
+            <!-- <a href="https://example-blog.com/organic-skincare-benefits" target="_blank" rel="noopener noreferrer" class="hover:text-green-400 transition duration-300 ease-in-out">Read Our Blog</a> -->
         </div>
     </footer>
 </body>
